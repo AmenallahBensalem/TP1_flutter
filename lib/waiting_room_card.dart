@@ -22,6 +22,10 @@ Widget build(BuildContext context) {
       ),
       const SizedBox(height: 10), // Add some spacing
       const WaitingRoomTimestamp(),
+      const SizedBox(height: 10),
+      const Text(
+        'You are in the waiting room',
+      ),
     ],
     ),
     ),
